@@ -7,5 +7,5 @@ In order to receive the certification, I had to complete all the projects listed
 - [x] [Survey Form](https://fcc-survey-form-ivana.netlify.app/)
 - [x] [Tribute Page](https://fcc-tribute-page-ivana.netlify.app/)
 - [x] [Technical Documentation Page](https://fcc-technical-doc-page-ivana.netlify.app/)
-- [ ] Product Landing Page
+- [x] [Landing Page](https://fcc-landing-page-ivana.netlify.app/)
 - [ ] Personal Portfolio Webpage
