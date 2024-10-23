@@ -29,7 +29,7 @@ main {
 
 #image {
     display: block;
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -81,6 +81,10 @@ ul strong {
     color: #333;
 }
 
+.read-more {
+    font-size: 0.8rem;
+}
+
 footer {
     background-color: #333;
     color: #EEEEEE;
@@ -92,10 +96,6 @@ blockquote {
     font-weight: 100;
     font-size: 1rem;
     line-height: 1.4;
-}
-
-footer p {
-    font-size: 0.6rem;
 }
 
 #tribute-link {
