@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: rgb(50, 50, 50);
+  --white: whitesmoke;
+  --teal: rgb(150, 235, 255);
+  --teal-dark: rgb(80, 200, 200);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#navbar {
+  background-color: var(--black);
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  list-style-type: none;
+  padding: 40px 20px 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+  color: var(--teal);
+}
+
+main {
+  padding-top: 50px;
+}
+
+#welcome-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--teal-dark);
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#welcome-section p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#projects {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#projects p {
+  text-align: center;
+}
+
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-tile {
+  width: 350px;
+  border: 1px solid var(--black);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(150, 235, 255, 0.5);
+  overflow: hidden;
+  padding: 20px 30px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+.tile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tile-content h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.tile-content p {
+  text-align: justify;
+}
+
+.tile-content a {
+  color: var(--teal-dark);
+  font-weight: 600;
+  text-align: center;
+}
+
+#contact {
+  background-color: var(--teal);
+  text-align: center;
+  padding: 50px 0;
+  width: 100%;
+}
+
+#contact p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  font-size: 18px;
+  color: var(--black);
+}
+
+#contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--black);
+  text-align: center;
+  padding: 30px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: var(--white);
+}
+
+footer a {
+  color: var(--white);
+}
+
+.heart {
+  color: var(--white);
+  padding: 0 10px;
+}
+
+
+@media (max-width: 500px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heart {
+    display: none;
+  }
+}
