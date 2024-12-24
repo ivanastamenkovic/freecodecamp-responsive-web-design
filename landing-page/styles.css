@@ -23,7 +23,7 @@ header, footer, #contact-section {
   color: var(--light-color);
 }
 
-header, .social-icons, #hero-section, .contact-info, #feature-section, #video-section {
+header, .social-icons, #hero-section, .contact-info, #feature-section, .video-description, #video-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,6 +171,7 @@ main {
 }
 
 .video-description {
+  flex-direction: column;
   flex: 1;
 }
 
