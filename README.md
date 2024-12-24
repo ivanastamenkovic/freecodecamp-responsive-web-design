@@ -16,4 +16,4 @@ These projects were created as part of a course, with the primary goal of fulfil
 
 <p align="center">
 <img src="./freecodecamp-responsive-web-design-certificate.png" alt="Responsive Web Design" width="500">
-</p>p>
+</p>
